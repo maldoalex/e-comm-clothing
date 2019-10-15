@@ -8,7 +8,6 @@ import {
 } from "../../redux/cart/cart.selectors";
 
 import "./checkout.styles.scss";
-import { combineReducers } from "redux";
 
 const CheckoutPage = ({ cartItems, total }) => (
   <div className="checkout-page">
